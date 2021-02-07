@@ -89,7 +89,7 @@ Executable hp2pretty
                        optparse-applicative,
                        semigroups,
                        text
-  GHC-options:         -Wall -rtsopts "-with-rtsopts= -c -F1.3"
+  GHC-options:         -Wall -rtsopts "-with-rtsopts= -c -F1.3" -O2
   HS-source-dirs:      src
   Main-is:             Main.hs
   Other-modules:       Args
